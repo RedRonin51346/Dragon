@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="dragons_awakening"
+version="1.0.0"
+displayName="Dragon's Awakening"
+description='''A cinematic Ender Dragon encounter with an intro, boss theme hook, and victory sequence.'''
+
+[[dependencies.dragons_awakening]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.dragons_awakening]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
